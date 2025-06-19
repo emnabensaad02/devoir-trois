@@ -1,0 +1,24 @@
+body{
+    width: 1160px;
+}
+
+.profile-pic {
+    width: 150px;         /* Taille du cercle */
+    height: 150px;
+    border-radius: 50%;   /* Rend la div circulaire */
+    overflow: hidden;     /* Cache tout ce qui dépasse */
+    border: 3px solid #ccc; /* Bordure optionnelle */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Effet d'ombre */
+  }
+
+  .profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Remplit le cercle sans déformer l’image */
+  }
+
+  #headercv {
+    display: flex;
+    justify-content: space-between;
+
+  }
